@@ -1,0 +1,21 @@
+{
+  "name": "rh-apotik-server",
+  "version": "1.0.0",
+  "description": "Rest API Server",
+  "license": "ISC",
+  "author": "Agung Kurniawan",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.1",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.3"
+  }
+}
