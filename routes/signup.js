@@ -9,7 +9,6 @@ router.post("/", async (req, res) => {
     req.body;
   const tbname = req.query.tbname;
 
-  console.log(req.query.tbname);
   try {
     // Cek apakah email sudah terdaftar
     const existingUser = await pool.query(

@@ -23,6 +23,6 @@ router.post("/", async (req, res) => {
 
   res.json({
     token,
-    user: { id: user.rows[0].id, nama: user.rows[0].nama, email },
+    user: user.rows[0],
   });
 });

@@ -21,6 +21,10 @@ app.use(express.urlencoded({ extended: true }));
 
 // Serve gambar statis
 app.use("/images/produk", express.static(path.resolve("public/images/produk")));
+app.use(
+  "/images/bukti_bayar",
+  express.static(path.resolve("public/images/bukti_bayar")),
+);
 app.use("/uploads", express.static("uploads"));
 
 // routes API
